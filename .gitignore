@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Production builds
+dist/
+build/
+.output/
+
+# Environment files with secrets
+.env
+.env.local
+.env.*.local
+
+# Convex & Cloudflare caches
+.convex/
+.wrangler/
+
+# System and logs
+*.log
+.DS_Store
+Thumbs.db
